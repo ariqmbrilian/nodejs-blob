@@ -1,6 +1,6 @@
-## Adding a connection string
+## Part of
 ```
-Part of https://github.com/Azure-Samples/storage-blob-upload-from-webapp-node.git
+https://github.com/Azure-Samples/storage-blob-upload-from-webapp-node.git
 ```
 ## Create storage account 
 ```

@@ -14,3 +14,8 @@ az storage account create \
 
 Navigate to the [Azure Portal](https://portal.azure.com) and copy the connection string from your storage account (under **Security + networking** > **Access keys**) in to the `.env.example` file. Once you have pasted your connection string in to the file, rename the file from `.env.example` to `.env`.
 
+## Part of
+```
+docker compose build
+docker compose up -d
+```

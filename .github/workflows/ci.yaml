@@ -1,11 +1,11 @@
 ---
-name: Lint Code Base
+name: CI
 on:
   push:
 
 jobs:
   build:
-    name: Lint Code Base
+    name: Check clean code
     runs-on: ubuntu-latest
 
     steps:
@@ -22,6 +22,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   test:
     runs-on: ubuntu-latest
+    name: Scan Dockerfile
+    needs: build
     steps:
     
       - name: Run Trivy vulnerability scanner in repo mode

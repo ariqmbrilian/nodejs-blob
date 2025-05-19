@@ -11,7 +11,7 @@ az storage account create \
   --name 999dev
 ```
 
-# Create container thumbnails and images
+```Create container thumbnails and images```
 
 ## Adding a connection string
 
